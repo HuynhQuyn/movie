@@ -1,0 +1,93 @@
+.container-banner {
+    height: 75vh;
+}
+
+.video-container {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.video-container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    background-image: linear-gradient(180deg, transparent, #141414);
+}
+
+.banner-video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+}
+
+.banner-info {
+    position: absolute;
+    width: 36%;
+    bottom: 24%;
+    left: 60px;
+}
+
+.banner-logo {
+    max-height: 150px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+}
+
+.banner-action {
+    margin-top: 40px;
+}
+
+.banner-btn-play {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 15px 44px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.banner-action a i {
+    margin-right: 6px;
+}
+
+.banner-btn-play:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.banner-btn-detail {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 15px 60px;
+    margin-left: 10px;
+    background-color: rgba(109, 109, 110, 0.7);
+    color: white;
+    border-radius: 5px;
+    outline: none;
+}
+
+.banner-btn-detail:hover {
+    background-color: rgba(109, 109, 110, 0.4);
+}
+
+.container-content {
+    margin-left: 60px;
+    height: auto;
+}
+

@@ -1,0 +1,36 @@
+.right-list-item {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    width: 346px;
+}
+
+.right-item-img img{
+    object-fit: cover;
+    width: 75px;
+    height: 87px;
+    float: left;
+    margin-right: 10px;
+}
+
+.right-item-content p:nth-child(1) {
+    font-size: 14px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.right-item-content p:nth-child(2) {
+    font-size: 12px;
+    color: #bababa;
+    margin-bottom: 5px;
+}
+
+.right-top-start img {
+    margin-right: 4px;
+}
+
+.right-top-start img {
+   
+}
